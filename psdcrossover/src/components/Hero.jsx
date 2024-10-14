@@ -1,10 +1,10 @@
 import heroImage from '../assets/hero-image.jpg';
+import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <>
-    <div className="bg-base-100 h-891">
-  <div className="hero-content flex-col lg:flex-row">
+    <section className='flex'>
+  <div className="flex-row">
     <img
       src={heroImage}/>
     <div>
@@ -16,8 +16,7 @@ const Hero = () => {
       <button className="btn btn-secondary border-4 border-primary text-pr">Learn More</button>
     </div>
   </div>
-</div>
-</>
+</section>
   )
 }
 export default Hero
