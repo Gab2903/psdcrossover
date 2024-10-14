@@ -9,7 +9,7 @@ const Purple0102 = () => {
             </div>
             <p className='text-justify py-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nesciunt eos nemo debitis aspernatur praesentium possimus quibusdam laboriosam repudiandae illum itaque explicabo molestias, laudantium eaque ut quam corporis tenetur saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nesciunt eos nemo debitis aspernatur praesentium possimus quibusdam</p>
             <div className='text-right'>
-                <button className=''>Learn More</button>
+                <button className='font-bold'>Learn More</button>
             </div>
         </div>
         <div className='py-32 pl-10 pr-40'>
@@ -18,7 +18,7 @@ const Purple0102 = () => {
             </div>
             <p className='text-justify py-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nesciunt eos nemo debitis aspernatur praesentium possimus quibusdam laboriosam repudiandae illum itaque explicabo molestias, laudantium eaque ut quam corporis tenetur saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nesciunt eos nemo debitis aspernatur praesentium possimus quibusdam</p>
             <div className='text-right'>
-                <button className=''>Learn More</button>
+                <button className='font-bold'>Learn More</button>
             </div>
         </div>
     </section>
