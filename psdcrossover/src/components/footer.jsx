@@ -14,13 +14,15 @@ const Footer = () => {
     <div>
       {/* Header + IMG */}
       <header
-        className="relative w-full h-96 bg-cover bg-center"
+        className="w-full h-96 bg-cover bg-center size-full"
         style={{ backgroundImage: `url(${image1})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-4xl text-white font-bold"></h1>
         </div>
       </header>
+      <br />
+      <br />
 
       {/* FAQ*/}
       <section className="bg-[#FAF0E8] py-12">
@@ -59,19 +61,19 @@ const Footer = () => {
               alt="Description Image"
               className="mb-6 rounded-lg shadow-lg"
             />
-            <p className="text-gray-600 text-sm mb-4">
+            <p className="text-gray-600 text-sm mb-4 text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <button className="bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800">
+            <button className="bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 place-self-center">
               Learn More
             </button>
           </div>
         </div>
       </section>
       {/* Footer */}
-      <footer className="bg-[#480AD0] text-[#FAF0E8] py-8">
-        <div className="container mx-auto text-center">
+      <footer className="bg-[#480AD0] text-[#FAF0E8] py-8 size-full">
+        <div className="container mx-auto text-center size-max">
           <div className="mt-6"></div>
           <h2 className="text-4xl font-bold mt-6 mb-6">Find out more</h2>
           <p className="text-lg font-semibold">Quick Links</p>
