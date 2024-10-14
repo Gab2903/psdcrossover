@@ -5,8 +5,6 @@ import Purple0102 from "./components/Purple0102";
 
 function App() {
   return <>
-  <Navbar />
-  <Hero />
   <Purple0102 />
   </>;
 }
