@@ -1,7 +1,11 @@
-import footer from "./components/footer";
+import Footer from "./components/Footer";
 
 function App() {
-  return <></>;
+  return (
+    <div className="App">
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
