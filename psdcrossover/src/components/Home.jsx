@@ -55,7 +55,7 @@ const Home = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi
               tenetur natus voluptate deleniti, molestiae aliquid suscipit
-              impedit. Distinctio, expedita.
+              impedit. expedita.
             </p>
             <div className="card-actions">
               <button className="btn btn-primary px-12 mt-4">LearnMore</button>

@@ -14,10 +14,10 @@ const Footer = () => {
     <div>
       {/* Header + IMG */}
       <header
-        className="w-full h-96 bg-cover bg-center size-full"
+        className="w-full h-[720px] bg-cover bg-center size-full"
         style={{ backgroundImage: `url(${image1})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-4xl text-white font-bold"></h1>
         </div>
       </header>
